@@ -1,0 +1,72 @@
+my-mega-project/
+├── .gitignore                  // Ignore node_modules and build artifacts
+├── README.md                   // Project documentation
+├── LICENSE
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── public/
+│   ├── index.html              // App entrypoint
+│   ├── favicon.ico
+│   └── assets/
+│       ├── logo.png
+│       └── fonts/
+│           ├── OpenSans-Regular.ttf
+│           └── OpenSans-Bold.ttf
+├── src/
+│   ├── main.ts                 // Main app entry
+│   ├── app/
+│   │   ├── App.tsx             // Main React component
+│   │   └── styles/
+│   │       └── app.css
+│   ├── components/
+│   │   ├── Button.tsx
+│   │   ├── Modal.tsx
+│   │   └── forms/
+│   │       ├── LoginForm.tsx
+│   │       └── RegisterForm.tsx
+│   ├── utils/
+│   │   ├── helpers.ts
+│   │   └── validators.ts
+│   └── types/
+│       ├── index.d.ts
+│       └── api.d.ts
+├── scripts/
+│   ├── build.sh
+│   ├── deploy.sh
+│   └── utils/
+│       ├── format-code.sh
+│       └── test.sh
+├── tests/
+│   ├── unit/
+│   │   ├── app.test.ts
+│   │   └── components.test.ts
+│   └── integration/
+│       ├── api.test.ts
+│       └── e2e.test.ts
+├── docs/
+│   ├── architecture.md
+│   ├── api.md
+│   └── images/
+│       └── overview.png
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   └── cd.yml
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       └── feature_request.md
+├── infra/
+│   ├── docker/
+│   │   ├── Dockerfile
+│   │   └── docker-compose.yml
+│   ├── k8s/
+│   │   ├── deployment.yml
+│   │   ├── service.yml
+│   │   └── ingress.yml
+│   └── terraform/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+└── .vscode/
+    └── settings.json

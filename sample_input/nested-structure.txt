@@ -1,0 +1,13 @@
+deep-nest/
+├── root.txt                     // Root file
+├── level1/
+│   ├── level1.txt               // Level 1 file
+│   ├── level2/
+│       ├── level2.txt           // Level 2 file
+│       ├── level3/
+│           ├── level3.txt       // Level 3 file
+│           ├── level4/
+│               ├── level4.txt   // Level 4 file
+│               ├── level5/
+│                   └── level5.txt // Level 5 file
+└── final.txt                    // File at root, after nested branches

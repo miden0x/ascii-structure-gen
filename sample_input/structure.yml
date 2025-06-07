@@ -1,0 +1,9 @@
+bingo-backend:
+  src:
+    index.ts: "Entrypoint, server setup"
+    socket.ts: "Socket.IO logic"
+    game: {}
+    models: {}
+    health.ts: "Healthcheck endpoint"
+  Dockerfile: ""
+  README.md: ""

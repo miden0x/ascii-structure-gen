@@ -1,0 +1,21 @@
+bingo-backend/
+├── src/
+│   ├── index.ts         // Entrypoint, server setup
+│   ├── socket.ts        // Socket.IO logic
+│   ├── game/            // Game logic, utils, types
+│   ├── models/          // Data models/types
+│   └── health.ts        // Healthcheck endpoint
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── cloudformation/
+│   ├── vpc.yml
+│   ├── redis.yml
+│   ├── rds.yml
+│   ├── ecs-cluster.yml
+│   ├── ecs-service.yml
+│   ├── alb.yml
+│   └── params.json
+└── README.md
