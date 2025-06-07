@@ -18,3 +18,23 @@ A bidirectional CLI tool for scaffolding or reverse-engineering project structur
 - Clone the repo and install dependencies
 - npx tsc
 - node bin/gen-structure.js -h
+
+## Usage
+```
+Usage: gen-structure [options] [input]
+
+Bidirectional project structure generator: ASCII <-> filesystem
+
+Arguments:
+input               Input file (ASCII tree or YAML) to generate structure. Ignored if --reverse is used.
+
+Options:
+--dry-run           Just show what would be created, do not create files
+-v, --verbose       Show verbose output
+-o, --out <path>    Output directory (when generating files) or output file for ASCII (when using --reverse) (default: ".")
+--reverse <folder>  Read a folder path and output its ASCII structure
+-h, --help          display help for command
+gen-structure structure.txt -o project
+gen-structure --reverse project
+gen-structure --reverse project -o ascii.txt
+```
